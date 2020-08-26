@@ -10,3 +10,8 @@ function set_win_title(){
 }
 
 starship_precmd_user_func="set_win_title"
+
+# docker compose alias'
+alias dcu="docker-compose up"
+alias dcd="docker-compose down"
+alias dcu="docker-compose run"
