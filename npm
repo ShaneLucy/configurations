@@ -1,0 +1,2 @@
+npm install -g loadtest
+npm install -g observatory-cli
