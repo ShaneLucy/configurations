@@ -1,5 +1,21 @@
-# Which Dockerfile to use?
+# Running Docker
 
-If a project contains development & production dependencies use **Dockerfile**
+## Building Image
 
-If a project contains development only dependencies use **Dockerfile-devOnly**
+### With Tag
+
+- `docker build --tag <app name> .`
+
+### Without Tag
+
+- `docker build .`
+
+## Running Container
+
+### With Tag
+
+- `docker run -d -p 5000:5000 <image ID>`
+
+### Without Tag
+
+- `docker run -d -p 5000:5000 <image ID>`
