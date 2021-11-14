@@ -20,6 +20,7 @@ Strict-Transport-Security: max-age=31536000
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0 maximum-scale=10, minimum-scale=0">
@@ -35,31 +36,7 @@ Strict-Transport-Security: max-age=31536000
     <meta property="og:image:alt" content="">
     <meta property="og:description" content="">
     <meta property="og:locale" content="en_GB">
-    <link rel="stylesheet" href=""> 
+    <link rel="stylesheet" href="">
 </head>
-<body>
-    <div id="cookie-consent" class="cookie-consent">
-        <p>This website uses cookies which are <strong>essential</strong> for this website to function. I don't use any tracking, analytical or marketing cookies because I believe privacy online is a fundamental right.
-            <button type="button" id="cookie-dismiss">Dismiss</button>
-        </p>
-    </div>
-    <script>
-        const cookieContainer = document.getElementById("cookie-consent");
-        const cookieDismiss = document.getElementById("cookie-dismiss");
-        var accepted = localStorage.getItem("cookieAccepted");
 
-        if (accepted == "true") {
-            cookieContainer.style.display = "none";
-        }
-
-        cookieDismiss.addEventListener("click", dismiss);
-
-        function dismiss() {
-            localStorage.setItem("cookieAccepted", "true");
-            cookieContainer.style.display = "none";
-        }
-    </script>
-    <main>
-    </main>
-</body>
 </html>
